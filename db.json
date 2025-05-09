@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "description": "hello",
+    "amount": 500,
+    "category": "personal",
+    "date": "2025-05-09 14:10:35"
+  },
+  {
+    "id": 3,
+    "description": "New World",
+    "amount": 500,
+    "category": "personal",
+    "date": "2025-05-09 14:20:39"
+  }
+]
