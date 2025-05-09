@@ -25,13 +25,13 @@ A simple command-line expense tracker application to manage the user finances bu
 3. To run use this command : "node cli_task_tracker.js list"
   - Usage: node cli_task_tracker.js [command] [options]
   - Commands:
-     - **add <description> <amount> <category>**          Add a new item with description, amount and category.
-     - **delete <id>**                                    Delete the item with the specified ID.
-     - **update <id> <description> <amount> <category>**  Update the item with the specified ID.
+     - **add [description] [amount] [category]**          Add a new item with description, amount and category.
+     - **delete [id]**                                    Delete the item with the specified ID.
+     - **update [id] [description] [amount] [category]**  Update the item with the specified ID.
      - **list**                                           List all items.
-     - **list <category>**                                List items that are filtered by the category.
+     - **list [category]**                                List items that are filtered by the category.
      - **summary**                                        Summary of all expenses.
-     - **summary <month>**                                Summary of all expenses for a specific month (of current year).
+     - **summary [month]**                                Summary of all expenses for a specific month (of current year).
      - **export**                                         Export expenses to a CSV file.
      - **help**                                           Show this help message.
 
